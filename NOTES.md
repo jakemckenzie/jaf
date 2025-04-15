@@ -1,4 +1,4 @@
-# Problem
+# Problem:
 
 # State Synchronization with a "Single Source of Truth":
 
@@ -15,12 +15,12 @@ For the [first personal project 1 on boot.dev](https://www.boot.dev/courses/buil
 
 2. Visualizations:
 
-- Server Health: Gauge charts to show CPU, memory, and disk usage.
-- Error Logs: A scrolling list or table of recent errors.
-- API Performance: Line charts for response times and request rates.
-- Database Metrics: Bar charts for query performance and connections.
-- Security Alerts: A notification panel for real-time alerts.
-- Deployment Status: A status indicator (e.g., "In Progress" or "Success").
+- Server Health: [Gauge charts](https://github.com/haiiaaa/chartjs-gauge) to show CPU, memory, and disk usage.
+- Error Logs: A [scrolling list](https://htmx.docs-hub.com/examples/infinite-scroll/) of recent errors.
+- API Performance: [Line charts](https://www.chartjs.org/docs/latest/charts/line.html) for response times and request rates.
+- Database Metrics: [Bar charts](https://www.chartjs.org/docs/latest/charts/bar.html) for query performance and connections.
+- Security Alerts: [A notification](https://medium.com/@oggy/building-a-simple-notification-system-with-golang-and-nats-bd8b0a5bf5bc) [panel for real-time alerts](https://themurph.hashnode.dev/go-beyond-the-basics-mastering-toast-notifications-with-go-and-htmx).
+- Deployment Status: [A status indicator](https://github.com/mdwn/ghstatus) (e.g., ["In Progress" or "Success"](https://www.githubstatus.com/api/)).
 
 3. Modularity:
 - Each section operates independently, fetching and displaying its own data without affecting others.
