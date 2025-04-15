@@ -99,6 +99,8 @@ Real-time updates are essential for keeping the dashboard relevant and actionabl
 > https://github.com/palash25/best-practices-checklist?tab=readme-ov-file#go
 - Templ:
 > https://templ.guide/
+- SQL:
+> https://github.com/sqlc-dev/sqlc
 - PocketBase:
 > https://pocketbase.io/
 - AST for CSS Selector:
