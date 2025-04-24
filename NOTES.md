@@ -1,10 +1,10 @@
 # Problem:
 
-# State Synchronization with a "Single Source of Truth":
+## State Synchronization with a "Single Source of Truth":
 
-HTMX relies on the server as the “source of truth” for state, sending HTML snippets to update the page. If the server’s state (e.g., in a database) doesn’t match what the browser expects, or if the client has temporary data, you might see inconsistencies, like a form showing old values after an update.\
+HTMX relies on the server as the “source of truth” for state, sending HTML snippets to update the page. If the server’s state (e.g., in a database) doesn’t match what the browser expects, or if the client has temporary data, you might see inconsistencies, like a form showing old values after an update.
 
-For the [first personal project 1 on boot.dev](https://www.boot.dev/courses/build-personal-project-1) I will take down the [Templiér](https://github.com/romshark/templier) library from [romshark](https://github.com/romshark) and implement my own demo of a [backend dashboard](https://github.com/romshark/demo-islands/tree/main) which will involve server-side events to update the islands demo that reacts to server side events.
+For the [first personal project 1 on boot.dev](https://www.boot.dev/courses/build-personal-project-1) I will implement my a demo of a [backend dashboard](https://github.com/romshark/demo-islands/tree/main) which will involve server-side events using Go, HTMX, Hyperscript (Typescript) and Templ without a javascript build step.
 
 ## Dashboard Design:
 
